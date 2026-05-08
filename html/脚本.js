@@ -1,8 +1,6 @@
 const 本地存储 = localStorage;
 const 视窗 = window;
 const 文档 = document;
-const 读文件 = FileReader;
-const 取 = fetch;
 const 如何做爱元素 = 文档.documentElement;
 const 体元素 = 文档.body;
 const 头元素 = 文档.head;
@@ -26,8 +24,7 @@ const 加末尾 = 'appendChild';
 const 设置属性 = 'setAttribute';
 const 获取属性 = 'getAttribute';
 const 清除属性 = 'removeAttribute';
-const 来源 = 'referrer';
-const 数据属性头 = 'data-'; 
+const 数据属性头 = 'data-';
 const 呢 = 'ing';
 const 运行中属性 = 数据属性头 + 'runn' + 呢;
 const 加载中属性 = 数据属性头 + 加载 + 呢;
@@ -58,27 +55,27 @@ const 是社交媒体 = /weibo|qq/i.test(navigator.userAgent);
 
 const $ = (名,元素 = 文档) => 元素.querySelector(名);
 
-const 字体名 = '字体';
 const 背景色 = '#efb4b4';
-const 本地存储等级们钥匙 = 'china-ex-levels';
-const 保存文件名 = `[神奇海螺][中国制霸].png`;
+const 本地存储等级们钥匙 = 'netherlands-ex-levels';
+const 保存文件名 = '[荷兰制霸].png';
 
-const 宽 = 1134;
-const 高 = 976;
+const 宽 = 2400;
+const 高 = 2350;
 const 比 = 二;
 const 最小间距 = 6;
 
-const 地区 = $('#地区');
+const 地区 = $('#region');
 const 保存 = $('#保存');
 const 输出 = $('#输出');
 const 输出图片 = $('img',输出);
 const 设置等级 = $('#设置等级');
+const 分数 = $('#score');
 
 const 画板 = 新建元素('canvas');
 const 上下文 = 画板.getContext(面);
 
 画板[宽度] = 宽 * 比;
-画板[高度] = 宽 * 比;
+画板[高度] = 高 * 比;
 
 const 图形 = 体元素[子元素][零];
 const 设置等级标题 = 设置等级[子元素][零];
@@ -142,7 +139,7 @@ const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return 全 + (+当前 || 零);
       }, 零);
-    分数[肉] = `分数: ${分}`;
+    分数[肉] = `Score: ${分}`;
 }
 添加事件监控(设置等级,点击,事件=>{
     事件[停止冒泡]();
@@ -157,27 +154,7 @@ const 计分 = _=>{
 获取等级们并生效();
 计分();
 
-const 读文件成地址 = (原始数据,回调)=>{
-    const 读 = new 读文件();
-    添加事件监控(读,加载,事件 => 回调(事件[靶子][成果]));
-    读.readAsDataURL(原始数据);
-};
-const 获取字体数据地址 = (地址,回调)=>{
-    取(地址)[那么](资源 => 资源.blob())[那么](原始数据 => 读文件成地址(原始数据,回调));
-};
-const 获取字体样式 = (字体名,回调)=>{
-    获取字体数据地址(
-        `${字体名}.woff?v={version}`,
-        地址 => 回调(`@font-face{font-family:${字体名};${源}:url(${地址})}`)
-    );
-};
-获取字体样式(字体名,样式字串=>{
-    $(样式,图形)[肉] = 样式字串;
-    const 样式元素 = 新建元素(样式);
-    样式元素[肉] = 样式字串;
-    头元素[加末尾](样式元素);
-    设置延时(_=>如何做爱元素[清除属性](加载中属性),二 * 千);
-});
+设置延时(_=>如何做爱元素[清除属性](加载中属性), 500);
 
 const 从文档文本新建图形文件 = 文档文本=>{
     const 原始数据 = new Blob([文档文本], {type: 'image/svg+xml'});
@@ -195,7 +172,6 @@ const 地址变图像元素 = (地址,回调)=>{
     添加事件监控(图,加载,_=>设置延时(_=>回调(图),千 / 二));
     图[源] = 地址;
 };
-const 日志 = _=>(新建图())[源] = `https://lab.magiconch.com/api/china-ex/log?levels=${获取所有省等级们字符串()}&r=${文档[来源]}`;
 
 const 保存图像 = _=>{
     如何做爱元素[设置属性](运行中属性,真);
@@ -207,13 +183,13 @@ const 保存图像 = _=>{
         上下文.fillStyle = 背景色;
         上下文.fillRect(
             零,零,
-            宽 * 比,宽 * 比
+            宽 * 比,高 * 比
         );
         上下文.drawImage(
             图,
             零,零,
             宽,高,
-            零,(宽 - 高) * 比 / 二,
+            零,零,
             宽 * 比, 高 * 比
         );
         画板.toBlob(元素数据=>{
@@ -227,7 +203,6 @@ const 保存图像 = _=>{
             },50)
         });
     });
-    日志();
 };
 
 添加事件监控(保存,点击,保存图像);

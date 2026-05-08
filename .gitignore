@@ -1,6 +1,10 @@
 Un/*
 *.css
+!html/slice.css
 package-lock.json
 china-ex-fixed.svg
+netherlands-ex-fixed.svg
 dist/*
+_archive/
 html/字体.woff
+node_modules/

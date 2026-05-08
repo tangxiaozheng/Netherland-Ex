@@ -47,10 +47,10 @@ const Less = require('less');
 
 const reader = async _=>{
 
-    let xml = readFileSync('china-ex.svg','utf8');
+    let xml = readFileSync('netherlands-label.svg','utf8');
 
     xml = replaceSVG(xml);
-    writeFileSync('china-ex-fixed.svg',xml);
+    writeFileSync('netherlands-ex-fixed.svg',xml);
 
 
     if(!existsSync('dist')) mkdirSync('dist');
@@ -117,7 +117,9 @@ const reader = async _=>{
         }
     );
     writeFileSync('dist/样式.css',cssText.css,'utf8');
-    copyFileSync('html/字体.woff','dist/字体.woff');
+    copyFileSync('html/slice-400.woff2','dist/slice-400.woff2');
+copyFileSync('html/slice-700.woff2','dist/slice-700.woff2');
+copyFileSync('html/slice.css','dist/slice.css');
 };
 
 reader();

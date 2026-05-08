@@ -1,0 +1,99 @@
+<svg viewBox="0 0 2400 2350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+#region path {
+    fill: #FFF;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#region path[level="5"] { fill: #FF7E7E; }
+#region path[level="4"] { fill: #FFB57E; }
+#region path[level="3"] { fill: #FFE57E; }
+#region path[level="2"] { fill: #A8FFBE; }
+#region path[level="1"] { fill: #88AEFF; }
+</style>
+<text id="title" x="30" y="120" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="83" fill="#111">荷兰制霸生成器</text>
+<text id="score" x="30" y="2200" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="83" fill="#111">Score</text>
+<g id="levels" transform="translate(2050 200)">
+    <path fill="#FF7E7E" d="M0 0h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <path fill="#FFB57E" d="M0 80h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <path fill="#FFE57E" d="M0 160h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <path fill="#A8FFBE" d="M0 240h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <path fill="#88AEFF" d="M0 320h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <path fill="#FFF" d="M0 400h550v80H0Z" stroke="#000" stroke-width="4"/>
+    <text x="25" y="55" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">居住 Live (5)</text>
+    <text x="25" y="135" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">短居 Short Stay (4)</text>
+    <text x="25" y="215" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">游玩 Visited (3)</text>
+    <text x="25" y="295" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">出差 Business (2)</text>
+    <text x="25" y="375" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">路过 Passed (1)</text>
+    <text x="25" y="455" font-family="'Noto Sans',sans-serif" font-weight="700" font-size="40" fill="#111">没去过 Never been</text>
+</g>
+<g transform="translate(-1185 -93)">
+    <g id="region">
+        <path id="Zuid Holland" data-province="Zuid Holland"
+            d="M1462.5 1104.5 1779.66 1104.5 1779.66 1207.08 1946.22 1207.08 1946.22 1453.28 2110.5 1453.28 2110.5 1494.7 1668.67 1494.7 1668.67 1585.5 1462.5 1585.5Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Overijssel" data-province="Overijssel"
+            d="M3114.3 700.5 3212.5 700.5 3212.5 1307.5 3011.54 1307.5 3011.54 1307.31 2953.87 1307.31 2953.87 1256.38 2616.46 1256.38 2616.46 949.267 2568.5 949.267 2568.5 718.744 2616.46 718.744 2616.46 880.662 3114.3 880.662Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Zeeland" data-province="Zeeland"
+            d="M1188.5 1494.5 1464.44 1494.5 1464.44 1585.74 1670.5 1585.74 1670.5 1973.5 1188.5 1973.5Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Groningen" data-province="Groningen"
+            d="M2680.5 187.5 3212.5 187.5 3212.5 700.5 3114.32 700.5 3114.32 415.5 2680.5 415.5Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Drenthe" data-province="Drenthe"
+            d="M2783.64 416.925 3114.5 415.5 3114.5 880.5 2616.5 880.5 2616.5 718.662 2780.07 717.949C2780.07 616.896 2783.64 517.979 2783.64 416.925Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Friesland" data-province="Friesland"
+            d="M1996.5 96.5001 2903.5 96.5001 2903.5 187.395 2680.74 187.395 2680.74 415.583 2784.47 416.296 2779.48 720.5 2568.98 719.074 2568.98 689.409 2160.72 689.409 2160.72 374.509 1996.5 374.509 1996.5 96.5001Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Flevoland" data-province="Flevoland"
+            d="M2160.5 689.5 2568.5 689.5 2568.5 949.46 2388.43 949.46 2388.43 1106.5 2160.5 1106.5Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Noord Holland" data-province="Noord Holland"
+            d="M1781.5 374.5 2160.5 374.5 2160.5 1107.08 1948.17 1107.08 1948.17 1207.5 1781.5 1207.5Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Utrecht" data-province="Utrecht"
+            d="M1948.5 1106.5h440v347h-440Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Limburg" data-province="Limburg"
+            d="M2554.4 1585.5 2680.5 1585.5 2680.5 2379.5 2352.5 2379.5 2352.5 1972.99 2554.4 1972.99Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Gelderland" data-province="Gelderland"
+            d="M2388.59 949.5 2616.76 949.5 2616.76 1256.76 2953.89 1256.76 2953.89 1307.69 3011.5 1307.69 3011.5 1585.5 2552.87 1585.5 2552.87 1494.29 2112.5 1494.29 2112.5 1453.25 2388.59 1453.25 2388.59 1256.76 2388.59 1165.93Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+        <path id="Noord Brabant" data-province="Noord Brabant"
+            d="M2112.5 1494.5 2553.04 1494.5 2553.04 1585.74 2554.5 1585.74 2554.5 1973.5 2352.17 1973.5 2352.17 1973.5 1670.5 1973.5 1670.5 1494.88 2112.5 1494.88Z"
+            stroke="#000000" stroke-width="6.875" stroke-miterlimit="8" fill-rule="evenodd" />
+    </g>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1707.07 1325)">Zuid </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1644.33 1413)">Holland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1927.92 1413)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2736.19 1129)">Overijssel</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 3094.26 1129)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1284.72 1763)">Zeeland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1574.04 1763)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2753.44 323)">Groningen</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 3138.44 323)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2715.14 803)">Drenthe</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 3014.77 803)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2271.4 431)">Friesland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2605.98 431)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2186.46 922)">Flevoland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2538.23 922)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1859.95 717)">Noord</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2089.12 717)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1832.75 805)">Holland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2116.34 805)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2027.99 1304)">Utrecht</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2308.14 1304)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2362.4 2100)">Limburg</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2669.48 2100)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2496.92 1428)">Gelderland</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2897.97 1428)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1997.59 1718)">Noord</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2226.76 1718)"> </text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 1964.94 1806)">Brabant</text>
+    <text font-family="Noto Sans,Noto Sans_MSFontService,sans-serif" font-weight="700" font-size="73" transform="matrix(1 0 0 1 2259.41 1806)"> </text>
+</g>
+</svg>
