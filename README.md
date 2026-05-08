@@ -1,8 +1,7 @@
-![荷兰制霸生成器]
 # 荷兰制霸生成器 / Netherlands-Ex Generator
 
 ## 说明
-参考中国制霸生成器(https://github.com/itorr/china-ex)与美国/欧洲制霸生成器(https://github.com/tenpages/us-level)制作的荷兰本土十二省制霸生成器。代码是Claude Code改的，我只是画了张矢量图，使用方法可以参考原项目————
+参考中国制霸生成器(https://github.com/itorr/china-ex) 与美国/欧洲制霸生成器(https://github.com/tenpages/us-level) 制作的荷兰本土十二省制霸生成器。代码是Claude Code改的，我只是画了张矢量图，使用方法可以参考原项目。
 
 
 ## 功能
